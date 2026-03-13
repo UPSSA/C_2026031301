@@ -2,6 +2,7 @@ package com.example.c_20260313;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,5 +23,8 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         Log.d("MyCheck", "MainActivity onCreate()");
+        Log.i("MyCheck", "MainActivity onCreate()");
+        Log.e("MyCheck", "MainActivity onCreate()");
+        Toast.makeText(this,"",Toast.LENGTH_SHORT).show();
     }
 }
